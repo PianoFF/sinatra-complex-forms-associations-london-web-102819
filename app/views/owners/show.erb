@@ -1,4 +1,4 @@
-<h1><%=@owner.name%></h1>
+<h2><a href="/owners/<%=@owner.id%>/edit"><%=@owner.name%></a></h2>
 <h4>Pets:</h4>
 <ul>
   <%@owner.pets.each do |pet|%>
